@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {HomePage} from './Home.jsx'
 
-const Header= ()=>{
-
-
+const App= ()=>{
   return (
 <div>
-  <h1>Hello There</h1>
+  <HomePage/>
 </div>
   )
 }
-export default Header
+export default App
