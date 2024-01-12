@@ -1,54 +1,84 @@
 body {
-    background-color: #90E0EF;
-    padding: auto;
-    border: 0px;
-    margin: 0px;
-}
-.top-button{
-    margin-top: 20px;
-    width: 200px;
-    height: 40px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: medium;
- border: 1px solid black;
+  background-color: #90e0ef;
+  padding: auto;
+  border: 0px;
+  margin: 0px;
 }
 
 label {
-    display: inline-block;
-    padding: 8px;
-    background-color: #ffffff; /* Button background color */
-    color: #000000; /* Button text color */
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    margin-right: 8px; /* Add spacing between label and select */
-  }
- 
+  display: inline-block;
+  padding: 8px;
+  background-color: #ffffff; /* Button background color */
+  color: #000000; /* Button text color */
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-right: 8px; /* Add spacing between label and select */
+}
+
 #location {
-    width: 200px;
-    height: 40px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: medium;
-    border: 1px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: medium;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.search-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: medium;
+  margin-left: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #03045e;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0, 3s;
+}
+
+.search-button:hover {
+  background-color: #1c1c7f;
+  color: #ffffff;
+}
+.header-image {
+  vertical-align: middle;
+  margin-left: auto;
+}
+
+.top-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: medium;
+  border: 1px solid black;
+}
+
+.header {
+    position:sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100px;
+}
+
+
+  h2 {
+    font-size: 57px; 
+    font-weight: bold;
+    margin: 0;
+    color: #023032; /* Adjust the color as needed */
+  }
+  .job-image {
+    align-self: flex-end; /* Align the image to the far right */
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 
-  .search-button{
-    width: 200px;
-    height: 40px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: medium;
-    margin-left: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: #03045E;
-    color: white;
   
-  }
-  .header{
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    height: 100px;
-   
-  }

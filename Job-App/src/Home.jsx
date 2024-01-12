@@ -26,10 +26,17 @@ export const HomePage = () => {
         Search
         </button>
 
-
+<img src='../public/login.png'width={60} height={50} className='header-image' />
         </div>
-        <h1>Find Your Perfect Job ...</h1>
 
+        <div className="job-section">
+  <div className="job-text">
+    <h2>Find Your Perfect...</h2>
+   
+    
+  </div>
+  <img src='../public/search.png' alt='Search Image' className="job-image" />
+</div>
 
         <div>
 
