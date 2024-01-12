@@ -1,10 +1,54 @@
 body {
     background-color: #90E0EF;
+    padding: auto;
+    border: 0px;
+    margin: 0px;
 }
-.search-button{
-    background-color: rgb(255, 255, 255);
+.top-button{
+    margin-top: 20px;
     width: 200px;
     height: 40px;
-    border-radius: 50px;
-    border: 1px solid #90E0EF;;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+ border: 1px solid black;
 }
+
+label {
+    display: inline-block;
+    padding: 8px;
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px; /* Add spacing between label and select */
+  }
+ 
+#location {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .search-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    margin-left: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #03045E;
+    color: white;
+  
+  }
+  .header{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100px;
+   
+  }
