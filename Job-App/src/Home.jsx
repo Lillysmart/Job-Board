@@ -5,7 +5,7 @@ export const HomePage = () => {
     return (
       <div>
         <div className='header'>
-            <img src='' width={200} height={100} />
+            <img className='header-img' src= '/logo-no-background.png' width={200} height={40} />
           <input className='top-button' type='search' placeholder='Job Title / Keyword...' />
           
          
@@ -27,7 +27,7 @@ export const HomePage = () => {
         Search
         </button>
 
-<img src='../public/login.png' className='header-image'width={60} height={50} />
+<img src='/login.png' className='header-image'width={60} height={50} />
         </div>
 
         <div className="job-section">
@@ -36,7 +36,7 @@ export const HomePage = () => {
    
     
   </div>
-  <img src='../public/search.png' alt='Search Image' className="job-image" />
+  <img src='/search.png' alt='Search Image' className="job-image" />
 </div>
 
         <div>

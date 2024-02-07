@@ -47,6 +47,10 @@ label {
   vertical-align: middle;
   margin-left: auto;
 }
+.header-img{
+  margin-right: 109px;
+  margin-left: 10px;
+}
 
 .top-button {
   width: 200px;
