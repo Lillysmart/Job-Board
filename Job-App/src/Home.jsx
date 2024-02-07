@@ -5,10 +5,11 @@ export const HomePage = () => {
     return (
       <div>
         <div className='header'>
+            <img src='' width={200} height={100} />
           <input className='top-button' type='search' placeholder='Job Title / Keyword...' />
           
          
-          <label htmlFor="location">Location :</label>
+          <label htmlFor="location"></label>
 
           <select id="location" name="location">
             <option value="All">Wordwide</option>
@@ -26,7 +27,7 @@ export const HomePage = () => {
         Search
         </button>
 
-<img src='../public/login.png'width={60} height={50} className='header-image' />
+<img src='../public/login.png' className='header-image'width={60} height={50} />
         </div>
 
         <div className="job-section">
