@@ -9,14 +9,13 @@ export const HomePage = () => {
     fetch("https://www.arbeitnow.com/api/job-board-api") // api for the get request
       .then((response) => response.json())
       .then((data) => console.log(data));
-      
-  },[]);
+  }, []);
 
   const SearchHandler = () => {
-  setData(data => {
-  return { ...data, color: "blue" } 
-  })}
-
+    setData((data) => {
+      return { ...data, color: "blue" };
+    });
+  };
 
   return (
     <div>
@@ -31,7 +30,7 @@ export const HomePage = () => {
         />
         <input
           className="top-button"
-          type="search"
+          type="text"
           placeholder="Job Title / Keyword..."
           onClick={SearchHandler}
         />
